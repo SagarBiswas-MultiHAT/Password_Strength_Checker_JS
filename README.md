@@ -1,5 +1,7 @@
 # Password Strength Checker
 
+![](https://imgur.com/MCf2nCY.png)
+
 ## Description
 The Password Strength Checker is a web-based tool designed to help users create strong and secure passwords. It provides real-time feedback on the strength of a password and offers suggestions for improvement.
 
