@@ -1,0 +1,66 @@
+/* Importing Google Font -- Inter  */
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+/* "*" used to select all elements */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Inter", sans-serif;
+}
+
+/* :root used to define custom properties */
+:root {
+    --color-text: #09090E;
+    --color-card: hsl(198, 60%, 81%);
+}
+
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    padding: 16px;
+    color: var(--color-text);
+    background: linear-gradient(#fd2222, #66ddac);
+}
+
+h1 {
+    font-size: 2.5rem;
+    margin-bottom: 16px;
+    text-align: center;
+    text-decoration: underline;
+}
+
+.container {
+    width: 900px;
+    padding: 32px;
+    position: relative;
+    border-radius: 23px;
+    overflow: hidden;
+    background: var(--color-card);
+    box-shadow: 0 10px 20px 0 rgba(0, 0, 0, 0.1);
+}
+
+input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+#strength {
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+#suggestions {
+    list-style-type: none;
+    padding: 0;
+    margin-top: 10px;
+}
+
+#suggestions li {
+    color: #d9534f;
+}
